@@ -1,6 +1,6 @@
 from flask_restful import Resource
 from numpy import delete
-from models.store import StoreModel
+from models.store_k import StoreModel
 
 class Store(Resource):
     def get(self, name):
