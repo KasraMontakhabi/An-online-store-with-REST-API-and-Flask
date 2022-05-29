@@ -37,4 +37,22 @@ python app_k.py
 POST http://127.0.0.1:5000/register
 ```
 2. Login
-
+```http
+POST http://127.0.0.1:5000/login
+```
+3. Add store
+```http
+POST http://127.0.0.1:5000/store
+```
+4. Add items 
+```http
+POST http://127.0.0.1:5000/item
+```
+5. Get store
+```http
+GET http://127.0.0.1:5000/store
+```
+6.Get items
+```http
+GET http://127.0.0.1:5000/item
+```
