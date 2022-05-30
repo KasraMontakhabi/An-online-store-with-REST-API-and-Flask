@@ -74,13 +74,13 @@ GET http://127.0.0.1:5000/user/<user_id>
 ```
 11. Delete a store by its name
 ```http
-DEL http://127.0.0.1:5000/store/<name>
+DELETE http://127.0.0.1:5000/store/<name>
 ```
 12. Delete an item by its name
 ```http
-DEL http://127.0.0.1:5000/item/<name>
+DELETE http://127.0.0.1:5000/item/<name>
 ```
 13. Delete a user by its user ID
 ```http
-DEL http://127.0.0.1:5000/user/<user_id>
+DELETE http://127.0.0.1:5000/user/<user_id>
 ```
