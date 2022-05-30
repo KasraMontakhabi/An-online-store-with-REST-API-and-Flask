@@ -24,6 +24,10 @@ Flask_JWT and Flask_JWT_extended:
 pip install flask-JWT
 pip install flask-JWT-extended
 ```
+SQLAlchemy:
+```bash
+pip install flask_sqlalchemy
+```
 3. Go to the project directory and run app_k.py
 ```bash
 python app_k.py
